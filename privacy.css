@@ -129,7 +129,9 @@ footer{
     transform: rotate(-90deg);
 }
 
-@media only screen  and (max-width: 63.9375em) {
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
     .head{
         width: 100%;     
     }
@@ -143,8 +145,9 @@ footer{
         width: 100%;     
     }
 }
-/* @media only screen  and (max-width: 46.25em) {
-    .privacyBody{
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    .head{
         width: 100%;     
     }
     .section{
@@ -153,4 +156,52 @@ footer{
     .footerEnd{
         width: 100%;
     } 
-} */
+    .nav{
+        width: 100%;     
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+    .head{
+        width: 100%;     
+    }
+    .section{
+        width: 100%;
+    }
+    .footerEnd{
+        width: 100%;
+    } 
+    .nav{
+        width: 100%;     
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+    .head{
+        width: 100%;     
+    }
+    .section{
+        width: 100%;
+    }
+    .footerEnd{
+        width: 100%;
+    } 
+    .nav{
+        width: 100%;     
+    }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+    .head{
+        width: 100%;     
+    }
+    .section{
+        width: 100%;
+    }
+    .footerEnd{
+        width: 100%;
+    } 
+    .nav{
+        width: 100%;     
+    }
+}
